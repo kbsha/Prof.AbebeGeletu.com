@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="News, updates, and blog posts from Prof. Dr. Abebe Geletu and the Autonomous Systems Lab at AIMS–RIC Rwanda.">
+  <title>News &amp; Updates | Prof. Dr. Abebe Geletu</title>
+  <link rel="stylesheet" href="asset/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="asset/photos/cover2.png" alt="Logo" onerror="this.style.background='#1a3460';this.removeAttribute('onerror')">
+      <div class="nav-logo-text">
+        <strong>Prof. Dr. Abebe Geletu</strong>
+        <span>AIMS–RIC Rwanda</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#research">Research</a></li>
+      <li><a href="index.html#publications">Publications</a></li>
+      <li><a href="index.html#supervision">Supervision</a></li>
+      <li><a href="index.html#events">Events</a></li>
+      <li><a href="lab.html">Lab</a></li>
+      <li><a href="news.html" class="active">News</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-content">
+
+<!-- HERO -->
+<section class="news-hero">
+  <span class="section-label" style="color:var(--amber-lt);">Latest Updates</span>
+  <h1 class="section-title" style="max-width:600px;margin:0.5rem auto 1rem;">News &amp; Posts</h1>
+  <p class="section-sub">Announcements, research highlights, conference updates, and insights from the lab.</p>
+</section>
+
+<!-- FILTER BAR -->
+<div style="background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:72px;z-index:100;">
+  <div style="max-width:1180px;margin:0 auto;padding:0 5%;display:flex;gap:0.5rem;overflow-x:auto;scrollbar-width:none;">
+    <button class="filter-btn active" data-filter="all" style="white-space:nowrap;padding:1rem 1.25rem;font-size:0.82rem;font-weight:600;color:var(--navy);border-bottom:3px solid var(--amber);background:none;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em;">All Updates</button>
+    <button class="filter-btn" data-filter="news" style="white-space:nowrap;padding:1rem 1.25rem;font-size:0.82rem;font-weight:600;color:var(--text-muted);border-bottom:3px solid transparent;background:none;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em;">News</button>
+    <button class="filter-btn" data-filter="publication" style="white-space:nowrap;padding:1rem 1.25rem;font-size:0.82rem;font-weight:600;color:var(--text-muted);border-bottom:3px solid transparent;background:none;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em;">Publications</button>
+    <button class="filter-btn" data-filter="event" style="white-space:nowrap;padding:1rem 1.25rem;font-size:0.82rem;font-weight:600;color:var(--text-muted);border-bottom:3px solid transparent;background:none;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em;">Events &amp; Talks</button>
+    <button class="filter-btn" data-filter="announcement" style="white-space:nowrap;padding:1rem 1.25rem;font-size:0.82rem;font-weight:600;color:var(--text-muted);border-bottom:3px solid transparent;background:none;cursor:pointer;transition:all 0.2s;letter-spacing:0.04em;">Announcements</button>
+  </div>
+</div>
+
+<!-- NEWS GRID -->
+<section class="section bg-cream">
+  <div class="section-inner">
+    <div class="news-grid" id="newsGrid">
+
+      <article class="news-card fade-up" data-category="news">
+        <div class="news-card-head">
+          <span class="news-category">News</span>
+          <span class="news-date">Apr 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>AI Conference 2026 — Key Highlights from AIMS–RIC Delegation</h3>
+          <p>Prof. Abebe presented groundbreaking results in intelligent MPC for autonomous vehicles at the African AI Summit 2026 in Nairobi. The delegation also participated in panel discussions on ethical AI for African development.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="publication">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#1565c0;">Publication</span>
+          <span class="news-date">Mar 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>New Paper: Intelligent MPC for Autonomous Vehicles Accepted in IEEE T-ITS</h3>
+          <p>Our latest paper on intelligent model predictive control for autonomous ground vehicles has been accepted in the IEEE Transactions on Intelligent Transportation Systems — a major milestone for the lab.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="event">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#2e7d32;">Event</span>
+          <span class="news-date">Mar 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>Keynote at AIMS Rwanda Annual Research Conference 2026</h3>
+          <p>Prof. Abebe delivered the opening keynote "AI for Autonomous Systems in Africa: Challenges and Opportunities" at the AIMS Rwanda Annual Research Conference, Kigali.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="announcement">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#e65100;">Announcement</span>
+          <span class="news-date">Feb 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>PhD Scholarship Positions Open for 2026/27 Academic Year</h3>
+          <p>We are recruiting PhD students for our research projects in autonomous systems, cybersecurity, and energy optimization. Fully funded positions available through AIMS and DAAD fellowships. Deadline: 30 June 2026.</p>
+          <a href="index.html#contact" class="news-card-link">Apply now →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="news">
+        <div class="news-card-head">
+          <span class="news-category">News</span>
+          <span class="news-date">Jan 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>Autonomous Vehicle Demo Day — Lab Showcases Prototype at AIMS</h3>
+          <p>The lab held its first public demo day showcasing the autonomous ground vehicle prototype. The event attracted students, faculty, and industry visitors who witnessed real-time MPC navigation and obstacle avoidance.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="event">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#2e7d32;">Event</span>
+          <span class="news-date">Jan 2026</span>
+        </div>
+        <div class="news-card-body">
+          <h3>Invited Talk at IFAC World Congress, Berlin</h3>
+          <p>Prof. Abebe was invited to present at the IFAC World Congress in Berlin, Germany, on "Chance-Constrained Optimization for Robust Autonomous System Design."</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="publication">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#1565c0;">Publication</span>
+          <span class="news-date">Dec 2025</span>
+        </div>
+        <div class="news-card-body">
+          <h3>Paper on IoT Cybersecurity Published in IEEE Transactions</h3>
+          <p>Research on hybrid deep learning for IoT intrusion detection has been published in the IEEE Transactions on Information Forensics and Security. This work introduces a novel CNN-Transformer hybrid architecture.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="announcement">
+        <div class="news-card-head">
+          <span class="news-category" style="color:#e65100;">Announcement</span>
+          <span class="news-date">Nov 2025</span>
+        </div>
+        <div class="news-card-body">
+          <h3>AIMS–RIC Receives New Research Funding for Autonomous Systems</h3>
+          <p>The Autonomous Systems Lab has received new funding from a competitive research grant, supporting projects in autonomous vehicle navigation and distributed energy optimization for the next three years.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+      <article class="news-card fade-up" data-category="news">
+        <div class="news-card-head">
+          <span class="news-category">News</span>
+          <span class="news-date">Oct 2025</span>
+        </div>
+        <div class="news-card-body">
+          <h3>Prof. Abebe Joins Editorial Board of International Journal</h3>
+          <p>Prof. Dr. Abebe Geletu has been appointed to the editorial board of an international journal in applied mathematics and engineering optimization, recognizing his contributions to the field.</p>
+          <a href="#" class="news-card-link">Read more →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Community Posts -->
+    <div style="margin-top:4rem;padding-top:3rem;border-top:2px solid var(--border);" id="community-section">
+      <div class="section-header">
+        <span class="section-label">Community</span>
+        <h2 class="section-title">Share Your Thoughts</h2>
+        <div class="divider"></div>
+        <p class="section-sub">Have a question, comment, or something to share about our research? Leave a message below.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;" class="community-grid">
+        <div>
+          <div class="contact-form-wrap">
+            <h3>Post a Comment</h3>
+            <form id="commentForm">
+              <div class="form-group">
+                <label for="authorName">Your Name</label>
+                <input type="text" id="authorName" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="commentText">Your Message</label>
+                <textarea id="commentText" placeholder="Share your thoughts, questions, or feedback…" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Post Comment →</button>
+            </form>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-family:var(--font-display);font-size:1.3rem;color:var(--navy);margin-bottom:1.5rem;">Recent Comments</h3>
+          <div id="postsDisplay">
+            <div style="color:var(--text-muted);font-style:italic;padding:2rem;text-align:center;background:var(--white);border:1px dashed var(--border);border-radius:var(--radius-md);">
+              No comments yet. Be the first to comment!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div><!-- /page-content -->
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h4>Prof. Dr. Abebe Geletu</h4>
+      <p>German Research Chair at AIMS Rwanda. Advancing mathematics and AI for Africa's future.</p>
+      <p class="quote">"Mathematics is, in its way, the poetry of logical ideas." — A. Einstein</p>
+    </div>
+    <div class="footer-col">
+      <h5>Categories</h5>
+      <a href="#" onclick="filterNews('all')">All Updates</a>
+      <a href="#" onclick="filterNews('news')">News</a>
+      <a href="#" onclick="filterNews('publication')">Publications</a>
+      <a href="#" onclick="filterNews('event')">Events</a>
+      <a href="#" onclick="filterNews('announcement')">Announcements</a>
+    </div>
+    <div class="footer-col">
+      <h5>Navigate</h5>
+      <a href="index.html">Professor Profile</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="lab.html">Autonomous Systems Lab</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="mailto:abebe.geletu@aims.ac.rw">abebe.geletu@aims.ac.rw</a>
+      <a href="https://www.aims.ac.rw" target="_blank">AIMS Rwanda</a>
+      <a href="index.html#contact">Send a Message</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Prof. Dr. Abebe Geletu · AIMS–RIC Rwanda</span>
+    <span><a href="index.html">← Back to Profile</a></span>
+  </div>
+</footer>
+
+<script src="asset/js/main.js"></script>
+<script>
+// Filter
+const filterBtns = document.querySelectorAll('.filter-btn');
+const newsCards  = document.querySelectorAll('.news-card');
+
+function filterNews(cat) {
+  newsCards.forEach(card => {
+    const show = cat === 'all' || card.dataset.category === cat;
+    card.style.display = show ? '' : 'none';
+  });
+}
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => {
+      b.style.color = 'var(--text-muted)';
+      b.style.borderBottomColor = 'transparent';
+    });
+    btn.style.color = 'var(--navy)';
+    btn.style.borderBottomColor = 'var(--amber)';
+    filterNews(btn.dataset.filter);
+  });
+});
+
+// Comments
+const POSTS_KEY = 'ag_lab_comments';
+
+function loadComments() {
+  const container = document.getElementById('postsDisplay');
+  const posts = JSON.parse(localStorage.getItem(POSTS_KEY)) || [];
+
+  if (posts.length === 0) {
+    container.innerHTML = '<div style="color:var(--text-muted);font-style:italic;padding:2rem;text-align:center;background:var(--white);border:1px dashed var(--border);border-radius:var(--radius-md);">No comments yet. Be the first to comment!</div>';
+    return;
+  }
+
+  container.innerHTML = posts.map(p => `
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-md);padding:1.25rem;margin-bottom:1rem;box-shadow:var(--shadow-sm);">
+      <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
+        <div style="width:36px;height:36px;background:var(--navy);color:var(--amber);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85rem;flex-shrink:0;">${escHtml(p.author.charAt(0).toUpperCase())}</div>
+        <div>
+          <div style="font-weight:600;font-size:0.875rem;color:var(--navy);">${escHtml(p.author)}</div>
+          <div style="font-size:0.75rem;color:var(--text-muted);">${p.time}</div>
+        </div>
+        <button onclick="deleteComment(${p.id})" style="margin-left:auto;font-size:0.75rem;color:var(--text-muted);background:none;border:1px solid var(--border);padding:0.2rem 0.6rem;border-radius:var(--radius-sm);cursor:pointer;">Delete</button>
+      </div>
+      <p style="font-size:0.875rem;color:var(--text-muted);line-height:1.65;">${escHtml(p.text)}</p>
+    </div>
+  `).join('');
+}
+
+function escHtml(str) {
+  return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+}
+
+function deleteComment(id) {
+  if (!confirm('Delete this comment?')) return;
+  let posts = JSON.parse(localStorage.getItem(POSTS_KEY)) || [];
+  localStorage.setItem(POSTS_KEY, JSON.stringify(posts.filter(p => p.id !== id)));
+  loadComments();
+}
+
+document.getElementById('commentForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const author = document.getElementById('authorName').value.trim();
+  const text   = document.getElementById('commentText').value.trim();
+  if (!author || !text) return;
+
+  let posts = JSON.parse(localStorage.getItem(POSTS_KEY)) || [];
+  posts.unshift({ id: Date.now(), author, text, time: new Date().toLocaleString() });
+  localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+
+  this.reset();
+  loadComments();
+
+  const toast = document.createElement('div');
+  toast.textContent = '✓ Comment posted!';
+  toast.style.cssText = 'position:fixed;top:90px;right:20px;background:var(--navy);color:var(--white);padding:0.75rem 1.25rem;border-radius:var(--radius-md);font-size:0.875rem;font-weight:600;z-index:9999;box-shadow:var(--shadow-md);';
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+});
+
+loadComments();
+</script>
+
+<style>
+  @media (max-width: 768px) {
+    .community-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
+</body>
+</html>

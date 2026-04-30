@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Autonomous Systems Lab at AIMS–RIC Rwanda — team, projects, facilities, and how to join.">
+  <title>Autonomous Systems Lab | AIMS–RIC</title>
+  <link rel="stylesheet" href="asset/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="asset/photos/cover2.png" alt="Logo" onerror="this.style.background='#1a3460';this.removeAttribute('onerror')">
+      <div class="nav-logo-text">
+        <strong>Prof. Dr. Abebe Geletu</strong>
+        <span>AIMS–RIC Rwanda</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#research">Research</a></li>
+      <li><a href="index.html#publications">Publications</a></li>
+      <li><a href="index.html#supervision">Supervision</a></li>
+      <li><a href="index.html#events">Events</a></li>
+      <li class="has-sub">
+        <a href="lab.html" class="active">Lab</a>
+        <ul class="submenu">
+          <li><a href="#team">Team</a></li>
+          <li><a href="#lab-projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#join">Join the Lab</a></li>
+        </ul>
+      </li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-content">
+
+<!-- HERO -->
+<section class="lab-hero">
+  <div class="hero-grid-pattern"></div>
+  <span class="section-label">AIMS–RIC · Kigali, Rwanda</span>
+  <h1 class="section-title" style="margin:0.5rem auto 1rem;max-width:700px;">Autonomous Systems Lab</h1>
+  <p class="section-sub">We develop intelligent, safe, and scalable autonomous systems. From self-driving vehicles to UAVs and smart energy grids — grounded in mathematics, driven by impact.</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem;">
+    <a href="#team" class="btn btn-amber">Meet the Team</a>
+    <a href="#join" class="btn btn-outline-light">Join the Lab</a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section bg-white">
+  <div class="section-inner">
+    <div class="section-header centered">
+      <span class="section-label">Lab Life</span>
+      <h2 class="section-title">Gallery</h2>
+      <div class="divider centered"></div>
+    </div>
+    <div class="gallery-main" id="galleryMain">
+      <img src="asset/photos/Last day (24).JPG" class="g-active" alt="Lab team" onerror="this.src='https://via.placeholder.com/900x506/0f2040/d4883e?text=Lab+Photo+1'">
+      <img src="asset/photos/Last day (29).JPG" alt="Lab session" onerror="this.src='https://via.placeholder.com/900x506/1a3460/d4883e?text=Lab+Photo+2'">
+      <img src="asset/photos/5.JPG" alt="Research" onerror="this.src='https://via.placeholder.com/900x506/0a1628/e8a85f?text=Lab+Photo+3'">
+      <img src="asset/photos/8.JPG" alt="Vehicle demo" onerror="this.src='https://via.placeholder.com/900x506/1a3460/ffffff?text=Vehicle+Demo'">
+      <img src="asset/photos/287A0180.jpg" alt="Conference" onerror="this.src='https://via.placeholder.com/900x506/0f2040/e8a85f?text=Conference'">
+    </div>
+    <div class="gallery-thumbs" id="galleryThumbs">
+      <img src="asset/photos/Last day (24).JPG" class="g-active" onerror="this.src='https://via.placeholder.com/72x48/0f2040/d4883e?text=1'">
+      <img src="asset/photos/Last day (29).JPG" onerror="this.src='https://via.placeholder.com/72x48/1a3460/d4883e?text=2'">
+      <img src="asset/photos/5.JPG" onerror="this.src='https://via.placeholder.com/72x48/0a1628/e8a85f?text=3'">
+      <img src="asset/photos/8.JPG" onerror="this.src='https://via.placeholder.com/72x48/1a3460/ffffff?text=4'">
+      <img src="asset/photos/287A0180.jpg" onerror="this.src='https://via.placeholder.com/72x48/0f2040/e8a85f?text=5'">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="lab-about" class="section bg-cream">
+  <div class="section-inner">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:4rem;align-items:center;">
+      <div class="fade-up">
+        <span class="section-label">Our Mission</span>
+        <h2 class="section-title">About the Lab</h2>
+        <div class="divider"></div>
+        <p style="color:var(--text-muted);line-height:1.85;margin-bottom:1rem;">The <strong>Autonomous Systems Lab</strong> at AIMS–RIC focuses on hybrid AI, autonomous systems (AV and UAV), cyber-physical security, and sustainable energy systems. We combine rigorous mathematical foundations with practical implementations to solve real-world challenges.</p>
+        <p style="color:var(--text-muted);line-height:1.85;margin-bottom:1rem;">Recent work highlights intelligent predictive control, distributed energy optimization, and AI-based intrusion detection. We aim to empower the next generation of African engineers and researchers through collaboration, innovation, and ethical AI practices.</p>
+        <p style="color:var(--text-muted);line-height:1.85;">Our research bridges theory and application — publishing in top international journals while building real prototypes tested in African environments.</p>
+      </div>
+      <div class="fade-up">
+        <div class="cards-grid" style="grid-template-columns:1fr 1fr;gap:1rem;">
+          <div class="card" style="padding:1.5rem;">
+            <div class="card-icon">🤖</div>
+            <h3 style="font-size:0.875rem;">Autonomous Vehicles</h3>
+            <p style="font-size:0.8rem;">MPC-based intelligent navigation</p>
+          </div>
+          <div class="card" style="padding:1.5rem;">
+            <div class="card-icon">🚁</div>
+            <h3 style="font-size:0.875rem;">UAV Systems</h3>
+            <p style="font-size:0.8rem;">RL-driven flight control</p>
+          </div>
+          <div class="card" style="padding:1.5rem;">
+            <div class="card-icon">🔒</div>
+            <h3 style="font-size:0.875rem;">CPS Security</h3>
+            <p style="font-size:0.8rem;">Deep learning intrusion detection</p>
+          </div>
+          <div class="card" style="padding:1.5rem;">
+            <div class="card-icon">⚡</div>
+            <h3 style="font-size:0.875rem;">Smart Grids</h3>
+            <p style="font-size:0.8rem;">Stochastic energy optimization</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section bg-white">
+  <div class="section-inner">
+    <div class="section-header centered">
+      <span class="section-label">People</span>
+      <h2 class="section-title">Lab Team</h2>
+      <div class="divider centered"></div>
+      <p class="section-sub">A diverse group of researchers united by curiosity and a commitment to solving real-world challenges through intelligent systems.</p>
+    </div>
+    <div class="team-grid">
+
+      <!-- Director -->
+      <div class="team-card fade-up" style="grid-column:1/-1;max-width:400px;margin:0 auto 1rem;">
+        <div class="team-card-photo" style="height:300px;">
+          <img src="asset/photos/287A1014.jpg" alt="Prof. Abebe Geletu" onerror="this.src='https://via.placeholder.com/400x300/0a1628/d4883e?text=Prof.+Abebe'">
+        </div>
+        <div class="team-card-body">
+          <h4>Prof. Dr. D.Sc. Abebe Geletu</h4>
+          <div class="team-card-role">Lab Director · German Research Chair</div>
+          <p>Mathematical Optimization · Autonomous Systems · AI &amp; Intelligent Control</p>
+          <div style="margin-top:1rem;display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap;">
+            <button class="btn btn-primary" style="padding:0.5rem 1rem;font-size:0.8rem;" onclick="openModal('modal-abebe')">Full Profile</button>
+            <a href="mailto:abebe.geletu@aims.ac.rw" class="btn btn-outline" style="padding:0.5rem 1rem;font-size:0.8rem;">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card fade-up">
+        <div class="team-card-photo">
+          <img src="asset/photos/Last day (24).JPG" alt="Kibremoges Fenta" onerror="this.src='https://via.placeholder.com/300x220/1a3460/d4883e?text=KF'">
+        </div>
+        <div class="team-card-body">
+          <h4>Kibremoges Fenta</h4>
+          <div class="team-card-role">Ph.D. Candidate</div>
+          <p>Autonomous Ground Vehicles · Deep RL · MPC · Real-time Control</p>
+          <div style="margin-top:1rem;">
+            <button class="btn btn-outline" style="padding:0.4rem 1rem;font-size:0.78rem;" onclick="openModal('modal-kib')">Profile</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card fade-up">
+        <div class="team-card-photo" style="background:var(--navy-mid);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:4rem;color:var(--amber);">S2</span>
+        </div>
+        <div class="team-card-body">
+          <h4>Ph.D. Candidate (2024)</h4>
+          <div class="team-card-role">Ph.D. Student</div>
+          <p>Hybrid AI for Smart Grid Optimization · Renewable Energy Management</p>
+        </div>
+      </div>
+
+      <div class="team-card fade-up">
+        <div class="team-card-photo" style="background:var(--navy-mid);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:4rem;color:var(--amber);">S3</span>
+        </div>
+        <div class="team-card-body">
+          <h4>Ph.D. Candidate (2023)</h4>
+          <div class="team-card-role">Ph.D. Student</div>
+          <p>Deep Learning Intrusion Detection · IoT Security · Transformer Models</p>
+        </div>
+      </div>
+
+      <div class="team-card fade-up" style="border:2px dashed var(--amber);background:var(--amber-pale);">
+        <div class="team-card-photo" style="background:linear-gradient(135deg,var(--navy),var(--navy-soft));display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3rem;">🔬</span>
+        </div>
+        <div class="team-card-body">
+          <h4>Open Positions Available</h4>
+          <div class="team-card-role" style="color:var(--navy);">PhD · Postdoc · Research Intern</div>
+          <p style="color:var(--text);">We are actively recruiting talented researchers. See below for how to apply.</p>
+          <div style="margin-top:1rem;">
+            <a href="#join" class="btn btn-amber" style="padding:0.4rem 1rem;font-size:0.78rem;">Apply →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAB PROJECTS -->
+<section id="lab-projects" class="section bg-cream">
+  <div class="section-inner">
+    <div class="section-header centered">
+      <span class="section-label">Research</span>
+      <h2 class="section-title">Lab Projects</h2>
+      <div class="divider centered"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card fade-up">
+        <span class="project-status status-ongoing">● Ongoing</span>
+        <h3>Intelligent MPC for Autonomous Ground Vehicles</h3>
+        <p>Predictive control integrating sensor fusion, adaptive path planning, and obstacle avoidance. Validated on a physical prototype operating in real environments at AIMS.</p>
+        <div class="funding-src">🎓 Lead: Kibremoges Fenta · Supervisor: Prof. Abebe</div>
+      </div>
+      <div class="project-card fade-up">
+        <span class="project-status status-funded">★ Funded</span>
+        <h3>Hybrid AI Cybersecurity for IoT Networks</h3>
+        <p>CNN-Transformer hybrid for anomaly detection in IoT-based industrial systems. Achieving state-of-the-art detection accuracy with low false positive rates.</p>
+        <div class="funding-src">🏛️ University Research Grant 2024–2026</div>
+      </div>
+      <div class="project-card fade-up">
+        <span class="project-status status-ongoing">● Ongoing</span>
+        <h3>UAV Navigation in GPS-Denied Environments</h3>
+        <p>Reinforcement learning combined with visual odometry for robust UAV flight in challenging environments. Applications in African terrain mapping and disaster response.</p>
+        <div class="funding-src">⚡ AIMS–RIC Research Fund</div>
+      </div>
+      <div class="project-card fade-up">
+        <span class="project-status status-ongoing">● Ongoing</span>
+        <h3>Stochastic Optimization for Microgrid Management</h3>
+        <p>Chance-constrained programming for reliable and cost-efficient operation of off-grid renewable energy systems in rural East Africa.</p>
+        <div class="funding-src">🌍 DAAD Collaboration Grant</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FACILITIES -->
+<section id="facilities" class="section bg-white">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Infrastructure</span>
+      <h2 class="section-title">Lab Facilities</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="cards-grid">
+      <div class="card fade-up">
+        <div class="card-icon">🚗</div>
+        <h3>Autonomous Vehicle Testbed</h3>
+        <p>Physical autonomous ground vehicle prototype equipped with LiDAR, cameras, and onboard computing for real-time MPC testing.</p>
+      </div>
+      <div class="card fade-up">
+        <div class="card-icon">🚁</div>
+        <h3>UAV Simulation &amp; Flight Lab</h3>
+        <p>High-fidelity simulation environments (Gazebo, AirSim) and physical UAV platforms for autonomous flight research.</p>
+      </div>
+      <div class="card fade-up">
+        <div class="card-icon">🖥️</div>
+        <h3>HPC Computing Cluster</h3>
+        <p>GPU-accelerated computing for large-scale deep learning training, simulation, and optimization algorithm development.</p>
+      </div>
+      <div class="card fade-up">
+        <div class="card-icon">🔌</div>
+        <h3>IoT Security Testbed</h3>
+        <p>Dedicated IoT network with multiple device types for cybersecurity research, intrusion detection, and vulnerability analysis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section id="join" class="section bg-navy text-white">
+  <div class="section-inner">
+    <div style="max-width:800px;margin:0 auto;text-align:center;">
+      <span class="section-label" style="color:var(--amber-lt);">Opportunities</span>
+      <h2 class="section-title">Join the Lab</h2>
+      <div class="divider centered"></div>
+      <p style="color:rgba(255,255,255,0.75);font-size:1.05rem;line-height:1.8;margin-bottom:2.5rem;">We welcome exceptional candidates passionate about autonomous systems, mathematical optimization, AI, and their applications. We especially encourage applications from African scholars committed to advancing technology on the continent.</p>
+    </div>
+    <div class="cards-grid" style="max-width:960px;margin:0 auto;">
+      <div class="card fade-up" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);">
+        <div class="card-icon">🎓</div>
+        <h3 style="color:var(--white);">Ph.D. Positions</h3>
+        <p style="color:rgba(255,255,255,0.7);">Open positions for PhD candidates in autonomous systems, optimization, and AI. Full scholarship support available through AIMS and partner programs.</p>
+        <span class="card-tag" style="background:rgba(212,136,62,0.2);color:var(--amber-lt);">Fully Funded</span>
+      </div>
+      <div class="card fade-up" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);">
+        <div class="card-icon">🔬</div>
+        <h3 style="color:var(--white);">Postdoctoral Fellowships</h3>
+        <p style="color:rgba(255,255,255,0.7);">Postdoc opportunities for researchers with a strong publication record. Collaborative environment with international co-supervisors.</p>
+        <span class="card-tag" style="background:rgba(212,136,62,0.2);color:var(--amber-lt);">Competitive</span>
+      </div>
+      <div class="card fade-up" style="background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.1);">
+        <div class="card-icon">📚</div>
+        <h3 style="color:var(--white);">Master's Research</h3>
+        <p style="color:rgba(255,255,255,0.7);">AIMS structured Master's thesis projects. Rigorous training in mathematical and computational methods with real-world applications.</p>
+        <span class="card-tag" style="background:rgba(212,136,62,0.2);color:var(--amber-lt);">Annual Intake</span>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:3rem;">
+      <p style="color:rgba(255,255,255,0.65);margin-bottom:1.5rem;">To apply, send your CV, a research statement, and two references to:</p>
+      <a href="mailto:abebe.geletu@aims.ac.rw" class="btn btn-amber" style="font-size:1rem;padding:0.9rem 2rem;">abebe.geletu@aims.ac.rw →</a>
+    </div>
+  </div>
+</section>
+
+</div><!-- /page-content -->
+
+<!-- MODALS -->
+<div class="modal-overlay" id="modal-abebe" onclick="closeModalOutside(event)">
+  <div class="modal-box">
+    <span class="modal-close" onclick="closeModal('modal-abebe')">✕</span>
+    <h2>Prof. Dr. D.Sc. Abebe Geletu</h2>
+    <div class="modal-role">Lab Director · German Research Chair · AIMS–RIC</div>
+    <p>Prof. Dr. D.Sc. Abebe Geletu is the German Research Chair at the African Institute for Mathematical Sciences (AIMS) Rwanda and a senior academic leader at the AIMS Research &amp; Innovation Center (AIMS–RIC). His work lies at the intersection of mathematical optimization, autonomous systems, artificial intelligence, and intelligent control, with a strong focus on translating rigorous theory into practical, real-world impact.</p>
+    <p>He is particularly interested in developing scalable, data-driven, and optimization-based methodologies for complex cyber-physical systems, energy systems, and sustainable infrastructures, with relevance to both African and global challenges.</p>
+    <p>Prof. Abebe has over 80 peer-reviewed publications, has supervised more than 15 graduate students, and maintains active research collaborations with institutions in Germany, Ethiopia, and across the African continent.</p>
+    <div style="margin-top:1.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
+      <a href="index.html#about" class="btn btn-primary">Full Profile →</a>
+      <a href="mailto:abebe.geletu@aims.ac.rw" class="btn btn-outline">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-kib" onclick="closeModalOutside(event)">
+  <div class="modal-box">
+    <span class="modal-close" onclick="closeModal('modal-kib')">✕</span>
+    <h2>Kibremoges Fenta</h2>
+    <div class="modal-role">Ph.D. Candidate · Autonomous Systems Lab, AIMS–RIC</div>
+    <p>Kibremoges Fenta is a Ph.D. candidate at the Autonomous Systems Lab, focusing on intelligent navigation for autonomous ground vehicles. His research integrates Model Predictive Control (MPC) with deep reinforcement learning for robust, real-time path planning and obstacle avoidance.</p>
+    <p>He has developed and demonstrated a physical autonomous vehicle prototype, validated in real-world environments at the AIMS Rwanda campus. His work has been presented at international conferences and contributes to the growing body of autonomous systems research in Africa.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h4>Autonomous Systems Lab</h4>
+      <p>Part of AIMS–RIC, Kigali Rwanda. Advancing intelligent systems research for African and global impact.</p>
+      <p class="quote">"Mathematics is the language in which God has written the universe." — Galileo</p>
+    </div>
+    <div class="footer-col">
+      <h5>Lab</h5>
+      <a href="#team">Team</a>
+      <a href="#lab-projects">Projects</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#join">Join Us</a>
+    </div>
+    <div class="footer-col">
+      <h5>Professor</h5>
+      <a href="index.html">Profile</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#research">Research</a>
+      <a href="news.html">News</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="mailto:abebe.geletu@aims.ac.rw">Email the Lab</a>
+      <a href="https://www.aims.ac.rw" target="_blank">AIMS Rwanda</a>
+      <a href="index.html#contact">Send a Message</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Autonomous Systems Lab · AIMS–RIC Rwanda</span>
+    <span><a href="index.html">← Professor Profile</a></span>
+  </div>
+</footer>
+
+<script src="asset/js/main.js"></script>
+<script>
+// Gallery
+(function(){
+  const mains  = document.querySelectorAll('#galleryMain img, #galleryMain video');
+  const thumbs = document.querySelectorAll('#galleryThumbs img, #galleryThumbs video');
+  let cur = 0;
+
+  function show(i) {
+    mains.forEach(m => m.classList.remove('g-active'));
+    thumbs.forEach(t => t.classList.remove('g-active'));
+    mains[i].classList.add('g-active');
+    thumbs[i].classList.add('g-active');
+    cur = i;
+  }
+
+  thumbs.forEach((t, i) => t.addEventListener('click', () => show(i)));
+  setInterval(() => show((cur + 1) % mains.length), 5000);
+})();
+
+// Modals
+function openModal(id) {
+  document.getElementById(id).classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(id) {
+  document.getElementById(id).classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closeModalOutside(e) {
+  if (e.target.classList.contains('modal-overlay')) {
+    e.target.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+}
+</script>
+</body>
+</html>
